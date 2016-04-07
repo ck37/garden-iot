@@ -1,7 +1,4 @@
 # garden-iot
-Automated garden system for my office
-
-## Summary
 
 This project seeks to create a small window-based planter box garden for my office. I hope to monitor multiple sensors for the garden, take webcam photos, and eventually get it to water itself, send alerts, accept voice control commands, etc.
 

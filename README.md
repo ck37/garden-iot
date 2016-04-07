@@ -61,22 +61,23 @@ Amazon
 
 ## Phase 3 - Control garden
 
-In this phase I will be able to control basic garden functionality (watering, soil temperature) remotely using technology. The reservoir has a water pump that sends water through 1/4" tubing to a t-splitter and two emitters in the garden.
+In this phase I will be able to control basic garden functionality (watering, soil temperature) remotely using technology. The reservoir has a water pump that sends water through 1/4" tubing to a t-splitter and two emitters in the garden. In my case the pump needs to send water up about 4 feet to the window sill, so that extra backpressure means the pump needs to be stronger than if it were moving the water laterally or downward.
 
-I will connect the water pump, soil heater, and fan to relays that can be controlled via the Raspberry Pi.
+I'm working to connect the water pump, soil heater, and fan to relays that can be controlled via the Raspberry Pi.
 
-I'm working on voice recognition (via the Amazon Alexa API) so control via voice would be nice.
+I'm working on voice recognition (via the Amazon Alexa API [[LINK]]) for control via voice.
 
 Ideally there would be a dashboard of controls plus sensor measurements, either via a webpage or as a mobile app.
 
 #### Phase 3 Part list
 
 Amazon
-- Water pump (Eco 132)
+- Water pump (Eco 132 currently, may be upgrading to a stronger pump)
 - 1/4" tubing and other tubing connectors
 - Power switch tail II
 - Air fan
 - Possibly other relay module(s)
+- Flow meter sensor
 
 ## Phase 4 - Automate garden
 
@@ -89,7 +90,7 @@ Adafruit
 
 ## Phase 5 - Machine learning
 
-The next goal is to use machine learning to improve the system. My current idea is that if I collect many sensor measurements over multiple months and link those to webcam images, I may be able to use machine learning (esp. convolutional neural nets) to estimate the sensor measurements (esp. soil moisture based on computer vision alone. I would then be able to remove the more expensive sensors and use them for other projects. Eventually this kind of training data could be aggregated with other people's so that the machine learning is even more accurate and generalizable, and new uers would not need to purchase some of the expensive sensors.
+The next goal is to use machine learning to improve the system. My current idea is that if I collect many sensor measurements over multiple months and link those to webcam images, I may be able to use machine learning (esp. convolutional neural nets) to estimate the sensor measurements (esp. soil moisture, reservoir water level) based on computer vision alone. I would then be able to remove the more expensive sensors and use them for other projects. Eventually this kind of training data could be aggregated with other people's so that the machine learning is even more accurate and generalizable, and new uers would not need to purchase some of the expensive sensors.
 
 Machine learning might also be be used to detect issues like 1) insect infestation, 2) plant dessication, etc. that would be easier to detect visually than with other sensors.
 
@@ -99,4 +100,4 @@ Develop experimental designs to improve the health of plants. Initial tests migh
 
 ## Phase 7 - Optimization
 
-Once things are all working, I would want to optimize the setup for cost and quality assurance. Cost improvements might include building custom circuits, finding cheaper suppliers, tweaking functionality, etc. Quality assurance would entail adding more checks, alerts, and backup systems to ensure nothing bad happens and error rates are low. A mobile app would be handy.
+Once things are all working, I would want to optimize the setup for materials cost, quality assurance, water usage, and power usage. Cost improvements might include building custom circuits & sensors, finding cheaper suppliers, tweaking functionality, etc. Quality assurance would entail adding more checks, alerts, and backup systems to ensure nothing bad happens and error rates are low. Power usage would first need to be measured rigorously.

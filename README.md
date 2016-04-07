@@ -7,7 +7,7 @@ This project seeks to create a small window-based planter box garden for my offi
 
 Currently working on phases 2 and 3.
 
-[[Add photo]]
+![April 7, 2016](https://raw.githubusercontent.com/ck37/garden-iot/master/photos/garden-2016-04-07.jpg)
 
 ## Phase 1 - Build garden
 

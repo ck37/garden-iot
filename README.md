@@ -11,7 +11,7 @@ Currently working on phases 2 and 3.
 
 ## Phase 1 - Build garden
 
-The garden consists of a wooden window box with a plastic liner to prevent leaking. The soil is water retaining potting soil augmeneted with vermiculite and fertilizer. Plants are herbs: basil, chives, mint, rosemary, and thyme. The herbs were started from seed at my house under a separate system with a grow light, with the exception of the mint which I bought as a seedling
+The garden consists of a wooden window box with a plastic liner to prevent leaking. The soil is water retaining potting soil augmented with vermiculite and fertilizer. Plants are herbs: basil, chives, mint, rosemary, and thyme. The herbs were started from seed at my house under a separate system with a grow light, with the exception of the mint which I bought as a seedling
 
 My office doesn't have a sink or water access, so a 5 gallon bucket serves as a reservoir. I used this YouTube video (LINK) to create a spout for easier water pouring. I can refill the resevoir once a month or so.
 

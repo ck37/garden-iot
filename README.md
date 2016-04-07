@@ -31,8 +31,8 @@ Home Depot
 
 Amazon
 
-- Thermostat
-- Heating pad
+- Thermostat controller ([Inkbird ITC-308 digital](http://smile.amazon.com/Inkbird-Itc-308-Temperature-Controller-Thermostat/dp/B011296704)) - $39
+- Heading pad ([Apollo seedling mat, 10"x20"](http://smile.amazon.com/Apollo-Horticulture-Seedling-Propagation-Cloning/dp/B00S1VJ0OC)) - $23
 
 ## Phase 2 - Monitor garden
 
@@ -53,8 +53,8 @@ Adafruit
   - Room humidity
 
 Amazon
-- Webcam
-- Speakers
+- Webcam (in my case, an extra logitech one that I had already)
+- Speakers ([link](smile.amazon.com/AmazonBasics-Powered-Computer-Speakers-A100/dp/B00GHY5F3K)) for text-to-speech - $14
 
 ## Phase 3 - Control garden
 
@@ -69,9 +69,9 @@ Ideally there would be a dashboard of controls plus sensor measurements, either 
 #### Phase 3 Part list
 
 Amazon
-- Water pump (Eco 132 currently, may be upgrading to a stronger pump)
-- 1/4" tubing and other tubing connectors
-- Power switch tail II
+- Water pump ([Eco 132 currently](http://smile.amazon.com/EcoPlus-728495-Submersible-Pump-132GPH/dp/B002PXDX0E), may be upgrading to a stronger pump) - $12
+- 1/4" tubing and other tubing connectors [Koram tubing pack](http://smile.amazon.com/Koram-Distribution-Irrigation-Accessories-IR-D/dp/B013JPIJG4) - $26
+- Powerswitch tail II
 - Air fan
 - Possibly other relay module(s)
 - Flow meter sensor

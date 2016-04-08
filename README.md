@@ -1,8 +1,8 @@
 # garden-iot
 
-This project seeks to create a small window-based planter box garden for my office. I hope to monitor multiple sensors for the garden, take webcam photos, and eventually get it to water itself, send alerts, accept voice control commands, etc.
+This project seeks to create a small window-based planter box garden for my office. I hope to monitor multiple sensors for the garden, take webcam photos, and eventually get it to water itself, send alerts, accept voice control commands, etc. I'm currently working on phases 2 and 3 - sensor monitoring and control.
 
-Currently working on phases 2 and 3.
+Photo summary, as of April 7:
 
 ![April 7, 2016](https://raw.githubusercontent.com/ck37/garden-iot/master/photos/garden-2016-04-07.jpg)
 

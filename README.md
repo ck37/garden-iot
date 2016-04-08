@@ -12,7 +12,7 @@ The garden consists of a wooden window box with a plastic liner to prevent leaki
 
 My office doesn't have a sink or water access, so a 5 gallon bucket serves as a reservoir. I used this YouTube video (LINK) to create a spout for easier water pouring. I can refill the resevoir once a month or so.
 
-Soil temperature is automatically maintained with a thermostat connected to a heating pad.
+Soil temperature is automatically maintained with a thermostat connected to a heating pad. The heating pad is placed under the plastic container and within the wooden box.
 
 #### Phase 1 Part list
 

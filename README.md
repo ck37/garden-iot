@@ -87,7 +87,7 @@ Adafruit
 
 ## Phase 5 - Machine learning
 
-The next goal is to use machine learning to improve the system. My current idea is that if I collect many sensor measurements over multiple months and link those to webcam images, I may be able to use machine learning (esp. convolutional neural nets) to estimate the sensor measurements (esp. soil moisture, reservoir water level) based on computer vision alone. I would then be able to remove the more expensive sensors and use them for other projects. Eventually this kind of training data could be aggregated with other people's so that the machine learning is even more accurate and generalizable, and new uers would not need to purchase some of the expensive sensors.
+The next goal is to use machine learning to improve the system. My current idea is that if I collect many sensor measurements over multiple months and link those to webcam images, I may be able to use machine learning (esp. convolutional neural nets) to estimate the sensor measurements (esp. soil moisture, reservoir water level) based on computer vision alone. I would then be able to remove the more expensive sensors and use them for other projects. Eventually this kind of training data could be aggregated with other people's so that the machine learning is even more accurate and generalizable, and new users would not need to purchase some of the expensive sensors.
 
 Machine learning might also be be used to detect issues like 1) insect infestation, 2) plant dessication, etc. that would be easier to detect visually than with other sensors.
 

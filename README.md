@@ -46,14 +46,13 @@ I have some of these sensors working and some still need to be setup. Not yet sa
 #### Phase 2 Part list
 
 Adafruit
-- Raspberry Pi 3
-- Pi cobbler
+- [Raspberry Pi 3](https://www.adafruit.com/products/3055) - $40
+- [Pi T-cobbler Plus](https://www.adafruit.com/products/2028) - $8
 - Sensors
-  - Soil temperature
-  - Soil humidity
-  - Lux
-  - Room temperature
-  - Room humidity
+  - Soil moisture/humidity ([SHT-10](https://www.adafruit.com/products/1298) - $50)
+  - Soil temperature ([DS18B20](https://www.adafruit.com/products/381) - $10)
+  - Lux ([TSL2561](https://www.adafruit.com/products/439) - $6)
+  - Room temperature & humidity ([DHT22](https://www.adafruit.com/products/385) - $10)
 
 Amazon
 - Webcam (in my case, an extra logitech one that I had already)
@@ -72,7 +71,7 @@ Ideally there would be a dashboard of controls plus sensor measurements, either 
 Amazon
 - Water pump (currently [Eco 132](http://smile.amazon.com/EcoPlus-728495-Submersible-Pump-132GPH/dp/B002PXDX0E) - $12, may be upgrading to a stronger pump)
 - 1/4" tubing and other tubing connectors ([Koram tubing pack](http://smile.amazon.com/Koram-Distribution-Irrigation-Accessories-IR-D/dp/B013JPIJG4) - $26)
-- Powerswitch tail II
+- [Powerswitch tail II](https://www.adafruit.com/products/268) - $26
 - Air fan
 - Possibly other relay module(s)
 - Flow meter sensor

@@ -6,9 +6,13 @@ Photo summary, as of April 7:
 
 ![April 7, 2016](https://raw.githubusercontent.com/ck37/garden-iot/master/photos/garden-2016-04-07.jpg)
 
+Latest updates:
+
+* April 14 - Setup powerswitch tail II, so raspberry pi can water the garden ([short youtube vid here](https://www.youtube.com/watch?v=icgMhyhgxM0))! Also setup webcam for remote viewing.
+
 ## Phase 1 - Build garden
 
-The garden consists of a wooden window box with a plastic liner to prevent leaking. The soil is water retaining potting soil augmented with vermiculite and fertilizer. Plants are herbs: basil, chives, mint, rosemary, and thyme. The herbs were started from seed at my house under a separate system with a grow light, with the exception of the mint which I bought as a seedling
+The garden consists of a wooden window box with a plastic liner to prevent leaking. The soil is water retaining potting soil augmented with vermiculite and fertilizer. Plants are herbs: basil, chives, mint, rosemary, and thyme. The herbs were started from seed at my house under a separate system with a grow light, with the exception of the mint which I bought as a seedling.
 
 My office doesn't have a sink or water access, so a 5 gallon bucket serves as a reservoir. I used [this YouTube video](https://www.youtube.com/watch?v=xGPdEduEmL0) to create a spout for easier water pouring. I can refill the resevoir once a month or so.
 
@@ -60,16 +64,16 @@ Amazon
 
 ## Phase 3 - Control garden
 
-In this phase I will be able to control basic garden functionality (watering, soil temperature) remotely using technology. The reservoir has a water pump that sends water through 1/4" tubing to a t-splitter and two emitters in the garden. In my case the pump needs to send water up about 4 feet to the window sill, so that extra backpressure means the pump needs to be stronger than if it were moving the water laterally or downward. I may get a stand to raise the reservoir and reduce the backpressure.
+In this phase I will be able to control basic garden functionality (watering, soil temperature) remotely using technology. The reservoir has a water pump that sends water through 1/4" tubing to a t-splitter and two emitters in the garden. I've raised the pump height by putting another bucket under the main reservoir. This way the pump only needs to send the water up a foot to the garden, rather than 3.5 feet originally. This reduces the backpressure on the pump and gives much better water flow.
 
-Currently working to connect the water pump, soil heater, and fan to relays that can be controlled via the Raspberry Pi. I have gotten basic voice recognition to work (via the [Amazon Alexa API](https://www.reddit.com/r/raspberry_pi/comments/494u60/alexapi_amazon_echo_clone/)), so the next step is to develop voice control.
+The water pump is connected to a Pi-controlled relay so that I can water programmatically by turning on a GPIO pin for a certain number of seconds. I still need to integrate the soil heater and fan. I have gotten basic voice recognition to work (via the [Amazon Alexa API](https://www.reddit.com/r/raspberry_pi/comments/494u60/alexapi_amazon_echo_clone/)), so the next step is to develop voice control.
 
 Ideally there would be a dashboard of controls plus sensor measurements, either via a webpage or as a mobile app.
 
 #### Phase 3 Part list
 
 Amazon
-- Water pump (currently [Eco 132](http://smile.amazon.com/EcoPlus-728495-Submersible-Pump-132GPH/dp/B002PXDX0E) - $12, may be upgrading to a stronger pump)
+- Water pump (currently [Eco 132](http://smile.amazon.com/EcoPlus-728495-Submersible-Pump-132GPH/dp/B002PXDX0E) - $12
 - 1/4" tubing and other tubing connectors ([Koram tubing pack](http://smile.amazon.com/Koram-Distribution-Irrigation-Accessories-IR-D/dp/B013JPIJG4) - $26)
 - [Powerswitch tail II](https://www.adafruit.com/products/268) - $26
 - Air fan
@@ -91,10 +95,10 @@ The next goal is to use machine learning to improve the system. My current idea 
 
 Machine learning might also be be used to detect issues like 1) insect infestation, 2) plant dessication, etc. that would be easier to detect visually than with other sensors.
 
-## Phase 6 - Randomized trials
-
-Develop experimental designs to improve the health of plants. Initial tests might include 1) augmenting the natural light with supplemental grow lighting, 2) soil temperature management, 3) watering schedules.
-
-## Phase 7 - Optimization
+## Phase 6 - Optimization
 
 Once things are all working, I would want to optimize the setup for materials cost, quality assurance, water usage, and power usage. Cost improvements might include building custom circuits & sensors, finding cheaper suppliers, tweaking functionality, etc. Quality assurance would entail adding more checks, alerts, and backup systems to ensure nothing bad happens and error rates are low. Power usage would first need to be measured rigorously.
+
+## Phase 7 - Randomized trials
+
+The final phase would be to develop experimental designs to improve the health of plants. Initial tests might include 1) augmenting the natural light with supplemental grow lighting, 2) soil temperature management, 3) watering schedules, 4) fan scheduling.
